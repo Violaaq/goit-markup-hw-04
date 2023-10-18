@@ -126,7 +126,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/img17.jpg);
+    url(../images/img17.jpg);
   background-size: cover;
   max-width: 1440px;
   background-position: center;
@@ -464,8 +464,7 @@ body {
 
 .customers-list-item {
   height: 88px;
-  border: 1px solid var(--light-slate);
-  width: calc((100%-120px) / 6);
+  width: calc((100% - 120px) / 6);
 }
 .customers-link {
   border-radius: 4px;
